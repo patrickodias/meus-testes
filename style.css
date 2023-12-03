@@ -1,0 +1,115 @@
+* {
+    text-align: center;
+    font-family: 'Poppins';
+    color: #fff;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/fotos-gratis/nuvens-brancas-dramaticas-e-ceu-azul-da-vista-da-janela-do-aviao-fundo-colorido-do-por-do-sol-cloudscape_90220-1209.jpg?w=996&t=st=1701624941~exp=1701625541~hmac=1851a68031dd9437f30c0af1ccbac3855097323ca6bd5df6f012ce4e508c1b66");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.testes {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+.testes h2 {
+    font-size: 30px;
+    color: #000;
+}
+.testes p {
+    font-size: 35px;
+    font-weight: 600;
+    /* text-transform: lowercase; */
+    color: #0c2135;
+}
+
+.testes a {
+    font-size: 16px;
+    text-decoration: none;
+}
+.testes a:hover {
+    color: blueviolet;
+
+}
+.testes i {
+    color: #fff;
+    background-color: #000;
+    padding: 7px;
+    border-radius: 20px;
+}
+.testes img {
+        width: 200px; /* Defina o tamanho desejado */
+        height: 350px; /* Defina a altura desejada */
+        object-fit: cover; /* Isso mantém a proporção e cobre completamente o espaço definido */    
+}
+
+.t1 {
+    border: 1px solid #000;
+    background-color: #94C9A9;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+.t1 img {
+    width: 300px;
+    transition: transform 0.25s;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.t1 img:hover {
+    transform: scale(1.1);
+}
+
+.t2 {
+    border: 1px solid #000;
+    background-color: #a64253;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+.t2 img {
+    width: 300px;
+    transition: transform 0.25s;
+    border-radius: 50%;
+}
+.t2 img:hover {
+    transform: scale(1.1);
+}
+.t3 {
+    border: 1px solid #000;
+    background-color: #94C9A9;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+.t3 img {
+    width: 300px;
+    border-radius: 50%;
+}
+.t3 img:hover {
+    transform: scale(1.1);
+}
+.t4 {
+    border: 1px solid #000;
+    background-color: #a64253;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+.t4 img {
+    width: 300px;
+    border-radius: 50%;
+}
+.t4 img:hover {
+    transform: scale(1.1);
+}
